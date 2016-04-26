@@ -1,7 +1,7 @@
 
 Some trial for UBY library. 
 
-Tests are in [AppTest](src/test/java/it/unitn/disi/ubytrial/AppTest.java)
+Tests are in [AppTest](src/test/java/it/unitn/disi/ubytrial/UbyTest.java)
 
 Loaded xmls are in [files/](files/) folder, including [UBY standard xml](files/UbyTestLexicon.xml) example to compare with.
 
@@ -21,7 +21,10 @@ For loading example xmls, in order to avoid exceptions like
 I did this:
 
 1) Added name to LexicalResource:
+```
 <LexicalResource name="Some trial es">
-
+```
 2) Added id to Lexicon:
-<Lexicon id="some-id-es" 
+```
+<Lexicon id="some-id-es"
+``` 

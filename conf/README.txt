@@ -1,1 +1,1 @@
-Everything here is versioned (except this file)
+Everything here is not versioned (except this file)
