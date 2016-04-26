@@ -1,4 +1,4 @@
-package it.unitn.disi.ubitrial;
+package it.unitn.disi.ubytrial;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,18 +12,21 @@ import de.tudarmstadt.ukp.lmf.transform.LMFDBUtils;
 import de.tudarmstadt.ukp.lmf.transform.XMLToDBTransformer;
 
 /**
- * david: taken from uby.testing-asl {@link UbyTestDbProvider} with som elittle mod
+ * david: taken from 
+ * <a href="https://github.com/dkpro/dkpro-uby/blob/master/de.tudarmstadt.ukp.uby.testing-asl/src/main/java/de/tudarmstadt/ukp/test/resources/UbyTestDbProvider.java">
+ * uby.testing-asl  UbyTestDbProvider </a> 
+ * with some little mod
  * 
  * @author Eckle-Kohler
  * Provides an in-memory UBY test DB for testing.
  *
  */
-public class TestDb {
+public class DbMaker {
 
 	private Uby uby;
 	private DBConfig dbConfig;
 	
-	public TestDb()  {
+	public DbMaker()  {
 			
 		try {
 			this.uby = createDB();

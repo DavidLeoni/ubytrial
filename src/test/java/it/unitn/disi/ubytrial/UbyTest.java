@@ -1,4 +1,4 @@
-package it.unitn.disi.ubitrial;
+package it.unitn.disi.ubytrial;
 
 import org.junit.Test;
 
@@ -13,7 +13,7 @@ import de.tudarmstadt.ukp.lmf.transform.DBConfig;
 /**
  * Unit test for simple App.
  */
-public class AppTest   
+public class UbyTest   
 { 
  
 	private void log(String msg){
@@ -30,10 +30,10 @@ public class AppTest
     	
     	DBConfig dbc = new DBConfig();
     	
-    	TestDb db = new TestDb();
+    	DbMaker db = new DbMaker();
         
-    	db.loadLmfXml("ca_wordnet_xtract_lmf_fixed.xml");    	
-    	db.loadLmfXml("es_wordnet_xtract_lmf_fixed.xml");
+    	db.loadLmfXml("files/ca_wordnet_xtract_lmf_fixed.xml");    	
+    	db.loadLmfXml("files/es_wordnet_xtract_lmf_fixed.xml");
     	
     	log("Printing lexicons...");
     	log();
