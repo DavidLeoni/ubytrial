@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE LexicalResource SYSTEM "kyoto_wn.dtd">-->
+<LexicalResource  name="Some trial es">
+        <GlobalInformation label="Proposal for Kyoto-internal WordNet representation"/>
+        <Lexicon id="some-id-es" languageCoding="ISO 639-3" label="Automatic genenerated Lexicon for spa-30" language="spa" owner="ehu" version="30">
+                <LexicalEntry id="LE-100.195.179.108.97.114_n">
+                        <Meta author="auto" date="2008-11-11" source="Monolingual Central Repository" status=""/>
+                        <Lemma writtenForm="dólar" partOfSpeech="n"/>
+                        <Sense id="S-100.195.179.108.97.114_n_3" synset="spa-30-06821581-n">
+                                <MonolingualExternalRefs>
+                                        <MonolingualExternalRef externalSystem="Domain" externalReference="factotum"/>
+                                        <MonolingualExternalRef externalSystem="SUMO" externalReference="ContentBearingObject" relType="plus"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="1stOrderEntity"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="Artifact"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="Representation"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="Top"/>
+                                </MonolingualExternalRefs>
+                        </Sense>
+                </LexicalEntry>
+        </Lexicon>
+        <SenseAxes>
+                <SenseAxis id="sa_sp30-en30_36915" relType="equal_synonym">
+                        <Target ID="spa-30-06821581-n"/>
+                        <Target ID="eng-30-06821581-n"/>
+                </SenseAxis>
+        </SenseAxes>
+</LexicalResource>

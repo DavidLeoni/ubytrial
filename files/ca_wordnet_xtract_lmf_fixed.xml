@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE LexicalResource SYSTEM "kyoto_wn.dtd">-->
+<LexicalResource name="Some trial ca">
+        <GlobalInformation label="Proposal for Kyoto-internal WordNet representation"/>
+        <Lexicon id="some-id-ca" languageCoding="ISO 639-3" label="Automatic genenerated Lexicon for cat-30" language="cat" owner="ehu" version="30">
+                <LexicalEntry id="LE-36_n">
+                        <Meta author="auto" date="2008-11-11" source="Monolingual Central Repository" status=""/>
+                        <Lemma writtenForm="$" partOfSpeech="n"/>
+                        <Sense id="S-36_n_1" synset="cat-30-06821581-n">
+                                <MonolingualExternalRefs>
+                                        <MonolingualExternalRef externalSystem="Domain" externalReference="factotum"/>
+                                        <MonolingualExternalRef externalSystem="SUMO" externalReference="ContentBearingObject" relType="plus"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="1stOrderEntity"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="Artifact"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="Representation"/>
+                                        <MonolingualExternalRef externalSystem="TCO" externalReference="Top"/>
+                                </MonolingualExternalRefs>
+                        </Sense>
+                </LexicalEntry>
+                <LexicalEntry id="LE-48_a">
+                        <Meta author="auto" date="2008-11-11" source="Monolingual Central Repository" status=""/>
+                        <Lemma writtenForm="0" partOfSpeech="a"/>
+                        <Sense id="S-48_a_1" synset="cat-30-02186132-a">
+                                <MonolingualExternalRefs>
+                                        <MonolingualExternalRef externalSystem="Domain" externalReference="number"/>
+                                        <MonolingualExternalRef externalSystem="SUMO" externalReference="Integer" relType="at"/>
+                                </MonolingualExternalRefs>
+                        </Sense>
+                </LexicalEntry>
+        </Lexicon>
+        <SenseAxes>
+                <SenseAxis id="sa_ca30-en30_43707" relType="equal_synonym">
+                        <Target ID="cat-30-06821581-n"/>
+                        <Target ID="eng-30-06821581-n"/>
+                </SenseAxis>
+                <SenseAxis id="sa_ca30-en30_14367" relType="equal_synonym">
+                        <Target ID="cat-30-02186132-a"/>
+                        <Target ID="eng-30-02186132-a"/>
+                </SenseAxis>
+        </SenseAxes>
+</LexicalResource>
+
