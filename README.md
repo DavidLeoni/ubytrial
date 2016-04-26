@@ -1,7 +1,7 @@
 
 Some trial for UBY library. 
 
-Tests are in [AppTest](src/test/java/it/unitn/disi/ubytrial/UbyTest.java)
+Tests are in [UbyTest](src/test/java/it/unitn/disi/ubytrial/UbyTest.java)
 
 Loaded xmls are in [files/](files/) folder, including [UBY standard xml](files/UbyTestLexicon.xml) example to compare with.
 
